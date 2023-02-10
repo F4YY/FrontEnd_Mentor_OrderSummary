@@ -73,6 +73,9 @@ export const Attribution = styled.div`
     margin: 10px auto 0;
     font-size: 11px;
     text-align: center;
+    @media screen and (max-width:600px){
+        flex-direction: column;
+    }
 `
 export const AttributionA = styled(Attribution)`
     color: hsl(228, 45%, 44%);
